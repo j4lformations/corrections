@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>chap-01-intro</module>
+        <module>chap-02-algo</module>
     </modules>
 
     <properties>
