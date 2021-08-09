@@ -1,4 +1,4 @@
-package com.j4ltechnologies.formation.java.exo01;
+package com.j4ltechnologies.formation.java.partie02;
 
 import java.util.Scanner;
 

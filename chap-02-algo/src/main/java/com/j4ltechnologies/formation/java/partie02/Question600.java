@@ -1,6 +1,5 @@
-package com.j4ltechnologies.formation.java.exo01;
+package com.j4ltechnologies.formation.java.partie02;
 
-import java.text.MessageFormat;
 import java.util.Scanner;
 
 /**

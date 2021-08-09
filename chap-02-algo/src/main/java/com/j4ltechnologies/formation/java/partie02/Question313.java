@@ -1,17 +1,17 @@
-package com.j4ltechnologies.formation.java.exo01;
+package com.j4ltechnologies.formation.java.partie02;
 
 import java.util.Scanner;
 
 /**
- * Classe Question311, créée le 06/08/2021 à 14:49
+ * Classe Question313, créée le 06/08/2021 à 14:49
  *
  * @author Joachim Zadi
  * @version 1.0
  */
-public class Question311 {
+public class Question313 {
     public static void main(String[] args) {
         // Saisir au clavier les entiers n et m et les afficher de n à m
-        // Dans le cas où n est supérieur à m, Afficher un message d'erreur et arrêter le programme.
+        // Dans le cas où n est supérieur à m, De manière décroissante.
 
         Scanner saisie = new Scanner(System.in);
 
@@ -34,9 +34,10 @@ public class Question311 {
             m = saisie.nextLong();
         }
 
-        if(n>m){
-            System.out.println("Attention, n doit être inferieur à m");
-            System.exit(0);
+        if (n > m) {
+            for (long i = n; i >= m; i--) {
+                System.out.printf("%s ", i);
+            }
         }
     }
 }

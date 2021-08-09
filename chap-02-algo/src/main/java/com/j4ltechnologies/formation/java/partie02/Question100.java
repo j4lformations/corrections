@@ -1,4 +1,4 @@
-package com.j4ltechnologies.formation.java.exo01;
+package com.j4ltechnologies.formation.java.partie02;
 
 /**
  * Classe Question100, créée le 06/08/2021 à 14:39
